@@ -1,0 +1,3 @@
+This code access the users web camera, and tells if there is any motion in the video that it is capturing , with a score that is basically the confidence score, like how confidence the model is that it detected the anomaly.
+This is a simple project, which although has no as such use, other then testing the model on system, but when done in a full-fleged manner, it can provide a big role in terms of tracking something.
+The logic behind the confidence of the model is what proportion of the pixel is getting changed from the previous state.
